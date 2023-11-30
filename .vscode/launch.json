@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "workingDirectory": "${workspaceRoot}",
+            "listenPublicly": false,
+            "listenPort": 56789,
+            "arg": [],
+            "name": "launch",
+            "program": "${workspaceFolder}/main.lua",
+            "request": "launch",
+            "stopOnEntry": true,
+            "type": "lua"
+        },
+        {
+            "name": "Debug Lua Interpreter",
+            "type": "lua-local",
+            "request": "launch",
+            "program": {
+                "lua": "lua",
+                "file": "${file}"
+            }
+        },
+        {
+            "name": "Debug Custom Lua Environment",
+            "type": "lua-local",
+            "request": "launch",
+            "program": {
+                "command": "command"
+            },
+            "args": []
+        }
+    ]
+}

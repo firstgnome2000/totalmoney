@@ -1,0 +1,13 @@
+## Interface: 30403
+## Title: totalmoney
+## Author: The Great FirstGnome
+## Version: 1.0
+## Notes: Tracks lifetime gold earnings for the character.
+
+totalmoney.lua
+WorldFrame.lua
+UIParent.lua
+CreatFrame.lua
+totalmoney.xml
+
+
